@@ -13,3 +13,12 @@ figure img {
 Nell'esempio sopra, usiamo il combinatore discendente per selezionare tutti gli elementi immagine all'interno degli elementi figure e applicare un bordo solid red su tutti e quattro i lati.
 Nota che tra il selettore genitore e figlio è usato un space.
 /******************/
+
+/*******differenza tra elementi in linea e a blocco *******************/
+Tutti i tag CSS display: block;
+<p>,<div>,<ul>
+
+ CSS display: inline;
+<span>, <anchor> e <img>
+/******************/
+
