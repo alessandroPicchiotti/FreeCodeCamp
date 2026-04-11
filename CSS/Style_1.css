@@ -26,5 +26,26 @@ Tutti i tag CSS display: block;
 <span>, <anchor> e <img>
 
 /************Come funziona inline-block *********************/
+ differenza chiave tra inline e inline-block è che gli elementi inline NON possono avere le dimensioni CONTROLLATE
+, mentre gli elementi inline-block permettono il PIENO controllo delle dimensioni pur rimanendo in linea con gli altri contenuti.
 
+-ESEMPIO-
+<div class="container">
+  <span class="inline-block-element element1">Inline-Block</span>
+  <span class="inline-block-element element2">Inline-Block</span>
+</div>
+<style>
+.inline-block-element {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+}
 
+.element1 {
+  background-color: lightblue;
+}
+
+.element2 {
+  background-color: lightgreen;
+}
+</style>
