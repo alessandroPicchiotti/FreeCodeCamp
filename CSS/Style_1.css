@@ -11,4 +11,5 @@ figure img {
   border: 4px solid red;
 }
 Nell'esempio sopra, usiamo il combinatore discendente per selezionare tutti gli elementi immagine all'interno degli elementi figure e applicare un bordo solid red su tutti e quattro i lati.
+Nota che tra il selettore genitore e figlio è usato un space.
 /******************/
