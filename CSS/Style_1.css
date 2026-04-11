@@ -53,3 +53,8 @@ Tutti i tag CSS display: block;
 /******** margini e spaziatura interna e come funzionano***********************/
 
 ORDINE: top, right, bottom, left.
+
+/****************Cetrare un div*****************************/
+
+margin-left:auto;
+  margin-right:auto;  
