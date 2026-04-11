@@ -1,7 +1,12 @@
+/**********Tag Multipli******************/
 Selettori: Con la virgola andiamo a selezionare + tag p, #RagioneSociale{backgroundColor: White;}
 link rel="stylesheet" href="styles.css">
 
-/*****************/
+p, div {
+  border: 4px solid red;
+}
+
+/*********Figli diretti indiretti ********/
 <figure>
   <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Relaxing Cat">
   <figcaption>A relaxing cat with a border</figcaption>
@@ -12,7 +17,6 @@ figure img {
 }
 Nell'esempio sopra, usiamo il combinatore discendente per selezionare tutti gli elementi immagine all'interno degli elementi figure e applicare un bordo solid red su tutti e quattro i lati.
 Nota che tra il selettore genitore e figlio è usato un space.
-/******************/
 
 /*******differenza tra elementi in linea e a blocco *******************/
 Tutti i tag CSS display: block;
@@ -20,5 +24,7 @@ Tutti i tag CSS display: block;
 
  CSS display: inline;
 <span>, <anchor> e <img>
-/******************/
+
+/************Come funziona inline-block *********************/
+
 
