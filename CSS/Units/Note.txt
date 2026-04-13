@@ -1,8 +1,12 @@
+*********************************
 PERCENTUALI
-
+******************************
 Fanno riferimento sempre al padre.
 
+
+*******************************
 EM e  REM
+********************************
 
 //EM
 //Il margine sare 2.5 volta la dimensione del carattere 20px; (più o meno 20 + 20 + 10px)
@@ -20,3 +24,8 @@ Esempio:
   margin-bottom: 1.5em;
   border: 2px solid red;
 }
+
+*****************************
+Cosa sono le unità vh e vw 
+******************************
+
