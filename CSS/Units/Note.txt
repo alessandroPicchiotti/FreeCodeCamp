@@ -28,4 +28,7 @@ Esempio:
 *****************************
 Cosa sono le unità vh e vw 
 ******************************
+vh indica "viewport height" (altezza del viewport), e 1vh corrisponde all’1% dell’altezza del viewport.
+
+Allo stesso modo, vw indica "viewport width" (larghezza del viewport), e 1vw corrisponde all’1% della larghezza del viewport.
 
