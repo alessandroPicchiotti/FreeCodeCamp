@@ -1,0 +1,10 @@
+/***FUNZIONE GIA INCLUSE NEL CSS*******************/
+//In questo caso mantiene 80% di grandezza 
+// a repscindere dal ridemensionamento quindi è molto esponsivo
+<link rel="stylesheet" href="styles.css" />
+<div>Hello, World!</div>
+div {
+  color: white;
+  background-color: #1b1b32;
+  width: calc(50% - 20px);
+}
