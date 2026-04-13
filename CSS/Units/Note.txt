@@ -1,0 +1,12 @@
+PERCENTUALI
+
+Fanno riferimento sempre al padre.
+
+EM e  REM
+
+//Il margine sare 2.5 volta la dimensione del carattere 20px; (più o meno 20 + 20 + 10px)
+.para {
+  font-size: 20px;
+  margin-top: 2.5em;
+  border: 2px solid red;
+}
