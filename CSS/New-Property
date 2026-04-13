@@ -8,3 +8,8 @@ li {
   <li>Item 2</li>
   <li>Item 3</li>
 </ul>
+
+//ALTERNATIVA A BORDER ,se non voglio aumentre le dimensioni dell'immagine quindi  si dispone sull'immagine
+img {
+  outline: 3px solid gold;
+}
