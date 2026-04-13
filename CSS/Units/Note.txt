@@ -4,9 +4,19 @@ Fanno riferimento sempre al padre.
 
 EM e  REM
 
+//EM
 //Il margine sare 2.5 volta la dimensione del carattere 20px; (più o meno 20 + 20 + 10px)
 .para {
   font-size: 20px;
   margin-top: 2.5em;
+  border: 2px solid red;
+}
+//REM
+Per impostazione predefinita, la dimensione del carattere tipografico dell'elemento html è 16px
+unità rem ridimensiona proporzionalmente la dimensione del carattere dell'elemento radice.
+Esempio:
+.para {
+  font-size: 1.5rem; (24px credo..)
+  margin-bottom: 1.5em;
   border: 2px solid red;
 }
