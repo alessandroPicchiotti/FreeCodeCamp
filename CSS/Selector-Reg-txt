@@ -1,0 +1,25 @@
+Combinatore discendente: 
+ul li {
+    background-color: yellow;
+}
+
+Combinatore figlio (>): 
+.container > p {
+  background-color: black;
+  color: white;
+}
+
+Combinatore fratello immediato (+):
+h2 + p {
+  background-color: red;
+}
+
+Combinatore fratello successivo (~): 
+ul ~ p {
+  background-color: green;
+}
+
+Combinatore AND (elementi staccati):
+h2, p {
+  background-color: red;
+}
