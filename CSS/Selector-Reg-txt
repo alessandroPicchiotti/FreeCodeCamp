@@ -1,3 +1,11 @@
+meta name="viewport"
+
+CSS in linea, interno ed esterno
+
+CENTRATO:
+Margin-left:0
+Margin-right:0
+
 Combinatore discendente: 
 ul li {
     background-color: yellow;
