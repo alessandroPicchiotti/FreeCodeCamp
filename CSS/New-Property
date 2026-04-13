@@ -2,3 +2,9 @@
 li {
   line-height: 2; 
 }
+//Liste with image:Sintetizza o meglio dire combina le proprietà: list-style-type, list-style-position e list-style-image
+<ul style="list-style: square inside url('https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg');">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
