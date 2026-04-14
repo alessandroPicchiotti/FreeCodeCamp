@@ -1,0 +1,48 @@
+/*
+selector::pseudo-element {
+  property: value;
+}
+::before 
+e 
+::after
+*/
+
+<button class="cta-button">Learn More</button>
+.cta-button::before {
+  content: "⭐";
+  position: absolute;
+  left: 3px;
+  top: 8px;
+  font-size: 0.75rem;
+}
+
+.cta-button::after {
+  content: '➡️';
+  position: absolute;
+  right: 5px;
+  bottom: 6px;
+  font-size: 1.125rem;
+  transition: transform 0.3s ease;
+}
+.cta-button:hover::after {
+  transform: translateX(2px);
+}
+
+<ul>
+  <li>Unordered list item 1</li>
+  <li>Unordered list item 2</li>
+  <li>Unordered list item 3</li>
+  <li>Unordered list item 4</li>
+</ul>
+
+<ol>
+  <li>Ordered list item 1</li>
+  <li>Ordered list item 2</li>
+  <li>Ordered list item 3</li>
+  <li>Ordered list item 4</li>
+</ol>
+li::marker {
+  color: crimson;
+  font-size: 1.5em;
+  font-weight: bold;
+}
