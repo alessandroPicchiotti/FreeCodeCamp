@@ -48,3 +48,8 @@ align-items: stretch
   align-self: stretch; 
   background-color: lightcoral; /***ECCOLO****/
 }
+
+//ALTRI VALORI:
+align-self: center
+align-self: flex-start
+align-self: flex-end
