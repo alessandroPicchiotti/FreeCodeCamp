@@ -13,6 +13,9 @@ flex-wrap: AVVOLGE, nowrap è il valore predefinito: NOWRAP: se superano ridimen
 
 proprietà "flex-flow" è una proprietà abbreviata per "flex-direction" e "flex-wrap"
 
-justify-content: center
-justify-content: flex-end, 
-justify-content: flex-start.
+justify-content: center;
+justify-content: flex-end;
+justify-content: flex-start;
+justify-content: flex-start;
+justify-content: space-around;
+justify-content: space-evenly;
