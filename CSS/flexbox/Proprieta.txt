@@ -1,0 +1,11 @@
+flex-direction,     justify-content,     align-items,    flex-wrap.
+
+modello flex: 
+    L’asse principale: flex-direction -> row o column di default parte da sinstra-destra flex-direction: row; /* Default */, se vuoi destra-sisnitra row-reverse
+                        main {
+                            display: flex;
+                            flex-direction: column; 
+                          }
+
+    L’asse trasversale: è sempre perpendicolare all'asse principale
+
