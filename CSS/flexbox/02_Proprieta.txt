@@ -9,7 +9,8 @@ modello flex:
 
     L’asse trasversale: è sempre perpendicolare all'asse principale
 
-flex-wrap: AVVOLGE, nowrap è il valore predefinito: NOWRAP: se superano ridimensione, con WRAP avvolge lasciando invariate le larghezze del div figli
+FLEX-WRAP: AVVOLGE, nowrap è il valore predefinito: NOWRAP: se superano ridimensione, con WRAP avvolge lasciando invariate le larghezze del div figli
+La proprietà flex-wrap determina come si comportano i tuoi elementi flex quando il contenitore flex è troppo piccolo. Impostarla su wrap permette agli elementi di andare a capo sulla riga o colonna successiva. nowrap (predefinito) impedisce agli elementi di andare a capo e li riduce se necessario.
 
 proprietà "flex-flow" è una proprietà abbreviata per "flex-direction" e "flex-wrap"
 
