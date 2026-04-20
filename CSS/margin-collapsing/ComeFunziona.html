@@ -1,0 +1,15 @@
+style>
+  .parent {
+    margin-top: 40px;
+    padding:1px;  //Il padding di un pixel evita il collasso tra padre e figlio, tra fratelli non funziona
+    background-color: lightyellow;
+  }
+  .child {
+    margin-top: 30px;
+    background-color: lightpink;
+  }
+</style>
+
+<div class="parent">
+  <div class="child">Child element</div>
+</div>
