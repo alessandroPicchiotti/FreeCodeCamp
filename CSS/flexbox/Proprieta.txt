@@ -9,3 +9,10 @@ modello flex:
 
     L’asse trasversale: è sempre perpendicolare all'asse principale
 
+flex-wrap: AVVOLGE, nowrap è il valore predefinito: NOWRAP: se superano ridimensione, con WRAP avvolge lasciando invariate le larghezze del div figli
+
+proprietà "flex-flow" è una proprietà abbreviata per "flex-direction" e "flex-wrap"
+
+justify-content: center
+justify-content: flex-end, 
+justify-content: flex-start.
