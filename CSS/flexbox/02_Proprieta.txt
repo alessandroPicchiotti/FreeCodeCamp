@@ -1,6 +1,13 @@
-flex-direction,     justify-content,     align-items,    flex-wrap.
+flex-direction,     justify-content,     align-items,    flex-wrap     align-content.
 
-flex-grow, flex-shrink e flex-basis. --> sintassi contratta: flex: 1 1 100px; --> allarga in volte | stringi in volte | alrghezz in px |
+ABBREVIAZIONE:
+flex
+flex-flow
+
+1.    flex-grow  --Valore-->  1 o 0     ||  La proprietà flex-grow controlla quanto spazio extra l'elemento flex dovrebbe occupare se c'è spazio libero disponibile nel contenitore.
+2.    flex-shrink --Valore--> 1 o 0     ||  Questa proprietà controlla quanto l'elemento flex si ridurrà quando non c'è abbastanza spazio nel contenitore per tutti gli elementi.
+3.    flex-basis  --Valore--> 0px o nPx ||  Questa proprietà imposta la dimensione iniziale di un elemento flex prima che cresca o si riduca.
+4.    flex:       --Valore--> 1 1 100px; || flex-grow -  flex-shrink - flex-basis
 
 modello flex: 
     L’asse principale: flex-direction -> row o column di default parte da sinstra-destra '''flex-direction: row; /* Default */'''', se vuoi destra-sisnitra row-reverse
