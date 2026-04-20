@@ -1,5 +1,7 @@
 flex-direction,     justify-content,     align-items,    flex-wrap.
 
+flex-grow, flex-shrink e flex-basis. --> sintassi contratta: flex: 1 1 100px; --> allarga in volte | stringi in volte | alrghezz in px |
+
 modello flex: 
     L’asse principale: flex-direction -> row o column di default parte da sinstra-destra '''flex-direction: row; /* Default */'''', se vuoi destra-sisnitra row-reverse
                         main {
