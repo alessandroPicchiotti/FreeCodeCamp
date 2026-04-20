@@ -1,7 +1,7 @@
 flex-direction,     justify-content,     align-items,    flex-wrap.
 
 modello flex: 
-    L’asse principale: flex-direction -> row o column di default parte da sinstra-destra flex-direction: row; /* Default */, se vuoi destra-sisnitra row-reverse
+    L’asse principale: flex-direction -> row o column di default parte da sinstra-destra '''flex-direction: row; /* Default */'''', se vuoi destra-sisnitra row-reverse
                         main {
                             display: flex;
                             flex-direction: column; 
@@ -19,3 +19,32 @@ justify-content: flex-start;
 justify-content: flex-start;
 justify-content: space-around;
 justify-content: space-evenly;
+
+
+***********ASSE TRAVERSALE***********************
+
+align-items: center;
+align-items: flex-start;
+align-items: flex-end;
+
+Per allungare gli elementi flex lungo l'asse trasversale, puoi usare:
+align-items: stretch
+
+.container {
+  display: flex;
+  align-items: flex-start; 
+  border: 2px solid #444;
+  height: 200px; 
+}
+
+.box {
+  width: 100px;
+  border: 1px solid #888;
+  background-color: lightblue;
+  margin: 4px;
+}
+
+.special {
+  align-self: stretch; 
+  background-color: lightcoral; /***ECCOLO****/
+}
